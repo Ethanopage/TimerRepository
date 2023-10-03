@@ -1,6 +1,17 @@
+/* Program Notes: Geometry is portrait (smaller width)
+Demonstrates numpad as Nested FOR Loops
+Start with width, then error check height
+*/
+//
 //Global Variables
 int appWidth, appHeight;
 Boolean windowActivated = false;
+float widthSquare, heightSquare;
+int numPadColums = 3;
+float[] x = new float [numPadColumns];
+int numPadRow = 5;
+float[] y = new float [numPadRow];
+float border=0.0;
 //
 void setup () {
   size(500, 600);
